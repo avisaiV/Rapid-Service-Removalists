@@ -4,8 +4,8 @@ Quick static website for the business.
 
 ## How to edit
 Open `index.html` and replace:
-- `+61400000000` with your real phone number
-- `rapidserviceremovalists@example.com` with your real email
+- `+61405902499` with your real phone number
+- `RapidServiceRemovalists@example.com` with your real email
 - service areas if needed
 
 ## How to publish fast
