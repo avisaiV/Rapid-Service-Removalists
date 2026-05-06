@@ -90,7 +90,10 @@
         </p>
       </div>
 
-      <form class="quote-form" action="mailto:rapidserviceremovalists@example.com" method="post" enctype="text/plain">
+      <form class="quote-form" action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="05bd53a0-a0e3-4dca-bb92-2f7aa9e5b9e8">
+        <input type="hidden" name="subject" value="New Quote Request - Rapid Service Removalists">
+        <input type="hidden" name="from_name" value="Rapid Service Removalists Website">
         <label>
           Name
           <input type="text" name="Name" placeholder="Your name" required />
@@ -101,6 +104,11 @@
           <input type="tel" name="Phone" placeholder="04XX XXX XXX" required />
         </label>
 
+        <label>
+          Email
+          <input type="email" name="Email" placeholder="your@email.com" />
+        </label>
+        
         <label>
           Suburb
           <input type="text" name="Suburb" placeholder="e.g. Liverpool, Camden, Campbelltown" required />
